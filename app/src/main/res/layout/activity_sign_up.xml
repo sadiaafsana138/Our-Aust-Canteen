@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/sign_backg"
+    tools:context=".SignUpActivity">
+    
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/signup_logo"/>
+
+    <EditText
+        android:id="@+id/Sign_up_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="YOUR NAME"
+        android:singleLine="true"
+        android:textColorHint="#fff"
+        android:fontFamily="cursive"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:maxLines="1"
+        android:paddingLeft="20dp"
+        android:textColor="#e8f2f2"/>
+
+    <EditText
+        android:id="@+id/Semester_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="SEMESTER"
+        android:textSize="25dp"
+        android:singleLine="true"
+        android:textColorHint="#fff"
+        android:fontFamily="cursive"
+        android:layout_marginTop="4dp"
+        android:maxLines="1"
+        android:paddingLeft="20dp"
+        android:textColor="#e8f2f2"/>
+
+    <EditText
+        android:id="@+id/year_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="YEAR"
+        android:textSize="25dp"
+        android:singleLine="true"
+        android:textColorHint="#fff"
+        android:fontFamily="cursive"
+        android:layout_marginTop="4dp"
+        android:maxLines="1"
+        android:paddingLeft="20dp"
+        android:textColor="#e8f2f2"/>
+
+    <EditText
+        android:id="@+id/mobile_number_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CONTACT NUMBER"
+        android:textSize="25dp"
+        android:textColorHint="#fff"
+        android:singleLine="true"
+        android:fontFamily="cursive"
+        android:layout_marginTop="4dp"
+        android:maxLines="1"
+        android:paddingLeft="20dp"
+        android:textColor="#e8f2f2"/>
+
+    <EditText
+        android:id="@+id/password_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PASSWORD"
+        android:textSize="25dp"
+        android:textColorHint="#fff"
+        android:fontFamily="cursive"
+        android:singleLine="true"
+        android:layout_marginTop="4dp"
+        android:maxLines="1"
+        android:paddingLeft="20dp"
+        android:textColor="#e8f2f2"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:fontFamily="cursive"
+        android:textColor="#000000"
+        android:background="@drawable/login_button_background"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:onClick="Submitted"
+        />
+
+
+
+</LinearLayout>

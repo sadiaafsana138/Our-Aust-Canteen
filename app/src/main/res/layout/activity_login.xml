@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_backg"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="-20dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/foodman" />
+
+    <ImageView
+        android:layout_width="550dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="-80dp"
+        android:layout_marginTop="-25dp"
+        android:src="@drawable/sad" />
+
+
+    <EditText
+        android:id="@+id/Username_Input"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="15dp"
+        android:padding="12dp"
+        android:hint="Username"
+
+        android:textColorHint="#706F6F"
+        android:maxLines="1"
+        android:drawableLeft="@drawable/ic_user_icon"
+        android:layout_marginTop="10dp"/>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f9d7db"/>
+
+    <EditText
+        android:id="@+id/password_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="15dp"
+        android:padding="12dp"
+        android:textStyle="bold"
+        android:hint="Password"
+        android:singleLine="true"
+        android:textColorHint="#706F6F"
+        android:maxLines="1"
+        android:drawableLeft="@drawable/ic_password_icon"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f9d7db"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_button_background"
+        android:text="SIGN IN"
+        android:textColor="#BF1212"
+        android:padding="16dp"
+        android:onClick="LunchoptionMenu"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:fontFamily="cursive"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/signup_button_backg"
+        android:text="sign up"
+        android:textColor="#ffffff"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:onClick="LunchSignUpMenu"
+        android:textSize="20dp"
+        android:fontFamily="cursive"/>
+
+
+
+
+
+
+</LinearLayout>
